@@ -29,32 +29,32 @@ Microfrontend-Setup-React/
 
    Navigate to each application directory and install the necessary dependencies:
 
-   ```bash
+    ```bash
+    cd app
+    npm install
+    cd ../app2
+    npm install
+    cd ../root-config
+    npm install
+    ```
+
+2. **Run the React Applications**
+
+   Start both React applications. They can run independently or simultaneously:
+
+  app:
+
+    ```bash
    cd app
-   npm install
-   cd ../app2
-   npm install
-   cd ../root-config
-   npm install
- ```
+   npm run start
+    ```
 
+  app2:
 
-2. Run the React Applications
-
-Start both React applications. They can run independently or simultaneously:
-
-app:
-
-```bash
-cd app
-npm run start
-```
-app2:
-
-```bash
-cd app2
-npm run start
-```
+    ```bash
+    cd app2
+    npm run start
+    ```
 Run the Root Config Application:
 
 The root-config application orchestrates the microfrontends:
