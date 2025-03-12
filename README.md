@@ -30,7 +30,7 @@ Microfrontend-Setup-React/
    Navigate to each application directory and install the necessary dependencies:
 
    ```bash
-   cd app1
+   cd app
    npm install
    cd ../app2
    npm install
@@ -42,24 +42,24 @@ Microfrontend-Setup-React/
 
 Start both React applications. They can run independently or simultaneously:
 
-app1:
+app:
 
+```bash
 cd app
-
-```bash
 npm run start
 ```
+app2:
 
+```bash
 cd app2
-```bash
 npm run start
 ```
-Run the Root Config Application
+Run the Root Config Application:
 
 The root-config application orchestrates the microfrontends:
 
-cd root-config
 ```bash
+cd root-config
 npm run start
 ```
 Access the application at http://localhost:9000.
