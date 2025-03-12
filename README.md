@@ -38,6 +38,7 @@ Microfrontend-Setup-React/
    npm install
  ```
 
+
 2. **Run the React Applications**
 
 Start both React applications. They can run independently or simultaneously:
