@@ -6,8 +6,11 @@ We can craete as many microfrontends using this setup. This setup can also allow
 ## Project Structure
 
 Microfrontend-Setup-React/
+
  ├── app1/
+
  ├── app2/
+
  └── root-config/
 
 
@@ -44,6 +47,7 @@ cd app
 ```bash
 npm run start
 ```
+
 cd app2
 ```bash
 npm run start
