@@ -42,19 +42,19 @@ Microfrontend-Setup-React/
 
    Start both React applications. They can run independently or simultaneously:
 
-  app:
+app:
 
-    ```bash
-   cd app
-   npm run start
-    ```
+```bash
+cd app
+  npm run start
+```
 
-  app2:
+app2:
 
-    ```bash
-    cd app2
-    npm run start
-    ```
+```bash
+cd app2
+npm run start
+```
 Run the Root Config Application:
 
 The root-config application orchestrates the microfrontends:
