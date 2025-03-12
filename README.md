@@ -39,11 +39,13 @@ Microfrontend-Setup-React/
  ```
 ## Run the React Applications
 
+
 2. Start both React applications. They can run independently or simultaneously:
 
 app1:
 
 cd app
+
 ```bash
 npm run start
 ```
